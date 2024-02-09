@@ -24,6 +24,6 @@ p {
 
 @media (min-width: 800px) {
   body {
-    margin-right: 60rem;
+    margin-right: 60%;
   }
 }
