@@ -21,3 +21,9 @@ body {
 p {
   margin-bottom: 0.5rem;
 }
+
+@media (min-width: 800px) {
+  body {
+    margin-left: 20rem;
+  }
+}
