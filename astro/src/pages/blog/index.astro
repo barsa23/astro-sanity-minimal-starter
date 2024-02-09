@@ -31,7 +31,7 @@ const allPostData = await getAllPosts();
 <style is:global>
   /* Posts list */
   .postlist {
-    margin-top: 10rem;
+    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
@@ -43,6 +43,7 @@ const allPostData = await getAllPosts();
   .postlist-item {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
   }
 
   .postlist-item__img {
