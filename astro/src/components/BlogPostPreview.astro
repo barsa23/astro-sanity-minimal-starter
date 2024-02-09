@@ -7,7 +7,7 @@ export interface Props {
 
 const { post } = Astro.props;
 ---
-<p>blog </p>
+
 <article class="post-preview__article">
 
     <a href={`/blog/${post.slug.current}`}>
@@ -29,8 +29,8 @@ const { post } = Astro.props;
   }
 
 .post-main__img {
-  width: 100%;
-  max-width: 600px;
+  width: 50%;
+  max-width: 400px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -44,7 +44,7 @@ const { post } = Astro.props;
 .publish-date,
 .author {
   font-size: 1.25rem;
-  color: var(--theme-text-lighter);
+  color: red;
 }
 
 .title {
