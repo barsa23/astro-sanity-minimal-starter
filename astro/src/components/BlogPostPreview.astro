@@ -7,10 +7,11 @@ export interface Props {
 
 const { post } = Astro.props;
 ---
-
+<p>blog </p>
 <article class="post-preview__article">
+
     <a href={`/blog/${post.slug.current}`}>
-      {post.mainImage && <img width="720" height="420" class="post-main__img" loading="lazy" src={getSanityImageURL(post.mainImage).url()} />}
+      {post.mainImage && <img width="520" height="220" class="post-main__img" loading="lazy" src={getSanityImageURL(post.mainImage).url()} />}
       <h1 class="title">{post.title}</h1>
       <time class="publish-date">{formatBlogPostDate(post.publishedAt)}</time>
       <p>{post.excerpt}</p>
