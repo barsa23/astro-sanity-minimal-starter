@@ -13,6 +13,7 @@ body {
   padding: 2px;
   background: #104e3c;
   color: #ffffff;
+  display: flex;
   font-family: 'Helvetica', Arial, Helvetica, sans-serif;
 }
 
