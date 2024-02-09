@@ -22,6 +22,22 @@ const { post } = Astro.props;
 </Container>
 
 <style>
+.publish-date {
+  margin: 0;
+}
+
+.publish-date,
+.author {
+  font-size: 0.5rem;
+  color: khaki;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 600;
+  color: black;
+}
+
   .post-content__article {
     padding: 2rem;
   }
@@ -31,4 +47,5 @@ const { post } = Astro.props;
     height: auto;
   }
 </style>
+
 
