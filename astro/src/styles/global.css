@@ -23,14 +23,14 @@ p {
   margin-bottom: 0.5rem;
 }
 
-/* @media (min-width: 800px) {
+/* /* @media (min-width: 800px) {
   body {
     margin-right: 90rem;
   }
-}
+} */
 
-@media (min-width:0px  max-width: 799px) {
+@media ( max-width: 799px) {
   body {
     margin: auto;
   }
-} */
+} 
