@@ -9,7 +9,8 @@
 html,
 body {
   
-  margin: auto;
+  margin-right: auto;
+  margin-left: 10%;
   width: 50ch;
   padding: 2px;
   background: #104e3c;
@@ -22,8 +23,14 @@ p {
   margin-bottom: 0.5rem;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   body {
-    margin-right: 60%;
+    margin-right: 90rem;
   }
 }
+
+@media (min-width:0px  max-width: 799px) {
+  body {
+    margin: auto;
+  }
+} */
