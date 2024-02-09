@@ -11,7 +11,7 @@ const { post } = Astro.props;
 <article class="post-preview__article">
 
     <a href={`/blog/${post.slug.current}`}>
-      {post.mainImage && <img width="520" height="220" class="post-main__img" loading="lazy" src={getSanityImageURL(post.mainImage).url()} />}
+      {post.mainImage && <img width="620" height="320" class="post-main__img" loading="lazy" src={getSanityImageURL(post.mainImage).url()} />}
       <h3 class="title">{post.title}</h3>
       <time class="publish-date">{formatBlogPostDate(post.publishedAt)}</time>
       <p>{post.excerpt}</p>
@@ -29,8 +29,8 @@ const { post } = Astro.props;
   }
 
 .post-main__img {
-  width: 50%;
-  max-width: 400px;
+  width: 70%;
+  max-width: 450px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -48,7 +48,7 @@ const { post } = Astro.props;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 600;
   color: black;
 }
