@@ -9,11 +9,11 @@
 html,
 body {
   margin: auto;
-  width: 60ch;
+  width: 75ch;
   padding: 2px;
   background: #104e3c;
   color: #ffffff;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
 }
 
 p {
