@@ -10,7 +10,7 @@ export default defineConfig({
   integrations: [
     sitemap(),
     sanity({
-      projectId: '8hj1t7km',
+      projectId: 'v4tesyqj',
       dataset: 'production',
       apiVersion: 'v2021-03-25',
       useCdn: true,

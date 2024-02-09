@@ -1,5 +1,5 @@
 export default {
-    title: `Astro Sanity Minimal Starter`,
+    title: `Sanity5`,
     description: `This is an example blog made with Astro.`,
     url: `https://astro-sanity-minimal-starter.netlify.app`, // No trailing slash!
     // JSON LD
