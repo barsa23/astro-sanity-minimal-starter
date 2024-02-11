@@ -5,7 +5,7 @@ import sanity from 'astro-sanity';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://main--roberta-caracol.netlify.app/',
+  site: 'https://roberta-caracol.netlify.app/',
   // Your public domain, e.g.: https://my-site.dev/
   integrations: [
     sitemap(),
